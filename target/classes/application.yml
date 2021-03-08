@@ -1,0 +1,14 @@
+azure:
+  activedirectory:
+    authorization-clients:
+      graph:
+        scopes:
+          - https://graph.microsoft.com/User.Read
+          - https://graph.microsoft.com/Directory.Read.All
+    client-id: b2a67fa0-3a3d-4676-a61f-846181b02e72
+    client-secret: 3I~_74tNdn7gn5tI9qiBk71rl5wRsOAN-~
+    tenant-id: 82bd0589-e71d-479c-a34d-d54c5dec0bbb
+    user-group:
+      allowed-groups: springgroup
+# It's suggested the logged in user should at least belong to one of the above groups
+# If not, the logged in user will not be able to access any authorization controller rest APIs

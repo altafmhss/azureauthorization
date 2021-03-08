@@ -1,0 +1,12 @@
+azure:
+  activedirectory:
+    authorization-clients:
+      graph:
+        scopes:
+          - https://graph.microsoft.com/User.Read
+          - https://graph.microsoft.com/Directory.Read.All
+    client-id:
+    client-secret:
+    tenant-id: 82bd0589-e71d-479c-a34d-d54c5dec0bbb
+    user-group:
+      allowed-groups: springgroup
